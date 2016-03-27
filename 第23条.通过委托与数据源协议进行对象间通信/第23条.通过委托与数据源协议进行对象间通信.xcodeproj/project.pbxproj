@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547DA8CD1CA56867002F5FE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 547DA8CC1CA56867002F5FE2 /* main.m */; };
+		547DA8D51CA5689A002F5FE2 /* EOCNetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 547DA8D41CA5689A002F5FE2 /* EOCNetworkFetcher.m */; };
+		547DA8D81CA568A9002F5FE2 /* EOCDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 547DA8D71CA568A9002F5FE2 /* EOCDataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		547DA8C71CA56867002F5FE2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		547DA8C91CA56867002F5FE2 /* 第23条.通过委托与数据源协议进行对象间通信 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第23条.通过委托与数据源协议进行对象间通信"; sourceTree = BUILT_PRODUCTS_DIR; };
+		547DA8CC1CA56867002F5FE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		547DA8D31CA5689A002F5FE2 /* EOCNetworkFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCNetworkFetcher.h; sourceTree = "<group>"; };
+		547DA8D41CA5689A002F5FE2 /* EOCNetworkFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCNetworkFetcher.m; sourceTree = "<group>"; };
+		547DA8D61CA568A9002F5FE2 /* EOCDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDataModel.h; sourceTree = "<group>"; };
+		547DA8D71CA568A9002F5FE2 /* EOCDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDataModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547DA8C61CA56867002F5FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547DA8C01CA56867002F5FE2 = {
+			isa = PBXGroup;
+			children = (
+				547DA8CB1CA56867002F5FE2 /* 第23条.通过委托与数据源协议进行对象间通信 */,
+				547DA8CA1CA56867002F5FE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547DA8CA1CA56867002F5FE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547DA8C91CA56867002F5FE2 /* 第23条.通过委托与数据源协议进行对象间通信 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547DA8CB1CA56867002F5FE2 /* 第23条.通过委托与数据源协议进行对象间通信 */ = {
+			isa = PBXGroup;
+			children = (
+				547DA8CC1CA56867002F5FE2 /* main.m */,
+				547DA8D31CA5689A002F5FE2 /* EOCNetworkFetcher.h */,
+				547DA8D41CA5689A002F5FE2 /* EOCNetworkFetcher.m */,
+				547DA8D61CA568A9002F5FE2 /* EOCDataModel.h */,
+				547DA8D71CA568A9002F5FE2 /* EOCDataModel.m */,
+			);
+			path = "第23条.通过委托与数据源协议进行对象间通信";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547DA8C81CA56867002F5FE2 /* 第23条.通过委托与数据源协议进行对象间通信 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547DA8D01CA56867002F5FE2 /* Build configuration list for PBXNativeTarget "第23条.通过委托与数据源协议进行对象间通信" */;
+			buildPhases = (
+				547DA8C51CA56867002F5FE2 /* Sources */,
+				547DA8C61CA56867002F5FE2 /* Frameworks */,
+				547DA8C71CA56867002F5FE2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第23条.通过委托与数据源协议进行对象间通信";
+			productName = "第23条.通过委托与数据源协议进行对象间通信";
+			productReference = 547DA8C91CA56867002F5FE2 /* 第23条.通过委托与数据源协议进行对象间通信 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547DA8C11CA56867002F5FE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dibadalu;
+				TargetAttributes = {
+					547DA8C81CA56867002F5FE2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 547DA8C41CA56867002F5FE2 /* Build configuration list for PBXProject "第23条.通过委托与数据源协议进行对象间通信" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 547DA8C01CA56867002F5FE2;
+			productRefGroup = 547DA8CA1CA56867002F5FE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547DA8C81CA56867002F5FE2 /* 第23条.通过委托与数据源协议进行对象间通信 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547DA8C51CA56867002F5FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547DA8D81CA568A9002F5FE2 /* EOCDataModel.m in Sources */,
+				547DA8D51CA5689A002F5FE2 /* EOCNetworkFetcher.m in Sources */,
+				547DA8CD1CA56867002F5FE2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		547DA8CE1CA56867002F5FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		547DA8CF1CA56867002F5FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		547DA8D11CA56867002F5FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		547DA8D21CA56867002F5FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547DA8C41CA56867002F5FE2 /* Build configuration list for PBXProject "第23条.通过委托与数据源协议进行对象间通信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547DA8CE1CA56867002F5FE2 /* Debug */,
+				547DA8CF1CA56867002F5FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547DA8D01CA56867002F5FE2 /* Build configuration list for PBXNativeTarget "第23条.通过委托与数据源协议进行对象间通信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547DA8D11CA56867002F5FE2 /* Debug */,
+				547DA8D21CA56867002F5FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547DA8C11CA56867002F5FE2 /* Project object */;
+}
